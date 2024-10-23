@@ -1,0 +1,171 @@
+/* body{
+ font-family: "Inter", serif;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+header{
+  display:flex;
+  justify-content: center;
+}
+
+.header-line{
+  justify-content:center;
+  flex-direction:row;
+  width: 100%;
+  height: 44px;
+  background-color: #fc7a1d;
+}
+
+.dots{
+  
+  display:flex;
+  flex-direction:row;
+  width: 48px;
+  height: 8px;
+}
+
+.ellipse{
+  display:flex;
+  flex-direction:row;
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius:50%;
+}
+
+.header-line-title{
+  margin-top: 12px;
+  margin-left: 300px;
+  width: 1280px;
+  height: 20px;
+  text-align:center;
+  font-weight: 700;
+  font-size: 14px;
+  color:#222222;
+}
+
+.dots-2{
+  display:flex;
+  flex-direction:row;
+  width: 48px;
+  height: 8px;
+}
+
+.logo{
+  
+  height: 257px;
+  width: 100%;
+
+}
+
+.logo-img{
+  margin-left: 112px;
+} */
+
+body {
+  font-family: "Inter", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-line {
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  height: 44px;
+  background-color: #fc7a1d;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  width: 48px;
+  height: 8px;
+}
+
+.ellipse {
+  display: flex;
+  flex-direction: row;
+  width: 8px;
+  height: 8px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+
+.header-line-title {
+  margin-left: 300px;
+  margin-top: 12px;
+  width: 1280px;
+  height: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  color: #222222;
+}
+
+.dots-2 {
+  display: flex;
+  flex-direction: row;
+  width: 48px;
+  height: 8px;
+}
+
+.logo {
+  display: flex; /* Добавляем flex для центрирования */
+  justify-content: center; /* Центрируем содержимое */
+  margin-top: 20px; /* Добавляем отступ сверху, если необходимо */
+}
+
+.logo-img {
+  max-width: 100%; /* Убедитесь, что изображение адаптивно */
+  height: auto; /* Сохраняем пропорции изображения */
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Убедитесь, что это значение вам нужно */
+  margin-bottom: 0; /* Убираем нижний отступ */
+}
+
+.intro-img{
+  width: 100%;
+}
+
+.sponsors {
+  width: 100%;
+  background-color: #fc7a1d;
+  display: flex;
+  justify-content: center;
+  margin-top: 0; /* Убираем верхний отступ */
+}
+
+.sponsor-block {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрируем изображения внутри блока */
+  width: 1216px; /* Установите ширину блока, если необходимо */
+  height: 112px; /* Установите высоту блока */
+}
+
+.sponsor-img {
+  height: 100%; /* Устанавливаем высоту изображения на 100% */
+  max-height: 80px; /* Устанавливаем максимальную высоту для изображений */
+  margin: 0 10px; /* Добавляем отступы между изображениями */
+  object-fit: contain; /* Сохраняем пропорции изображений */
+}
+
+
+
